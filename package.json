@@ -1,0 +1,23 @@
+{
+  "name": "advancedjs",
+  "version": "1.0.0",
+  "description": "week 11 homework",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laurenkerns/advancedjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laurenkerns/advancedjs/issues"
+  },
+  "homepage": "https://github.com/laurenkerns/advancedjs#readme",
+  "dependencies": {
+    "inquirer": "^6.2.2"
+  }
+}
