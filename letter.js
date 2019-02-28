@@ -4,12 +4,12 @@ const inquirer = require("inquirer");
 const Letter = function(value){
     this.value = value;
     this.guess = false;
-    //if guess is true, console log the value, else return _
+    //if guess is true, console log the value, else return "_"
     this.showGuess = () => {
         if(this.guess === true){
-            console.log(this.value);
+            return this.value;
         } else {
-            console.log("_");
+            return "_";
         }
     };
 //check if guess is correct against the underlying character, update boolean
@@ -18,11 +18,13 @@ const Letter = function(value){
         if(userInput === this.value) {
             this.guess = true;
             return true;
-        } else{
+        } else {
             return false;
         }
     };
 };
+
+
 
 module.exports = Letter;
 
